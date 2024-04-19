@@ -8,3 +8,8 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
 
 
 # Caso de Teste 02 - Pesquisa de um Produto
+    Acessar a homepage do site amazon.com.br
+    Digitar o nome de produto "Xbox Series S" no campo de busca
+    Clicar no botão de busca
+    Verificar o resultado da pesquisa está listando o produto pesquisado
+
