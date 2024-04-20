@@ -11,9 +11,10 @@ Caso de Teste 01 - Acesso ao menu "Eletrônicos"
     ...                e se a página de Eletrônicos é exibida corretamente
     [Tags]    menus    categorias
     Acessar a homepage do site amazon.com.br
-#     Entrar no menu "Eletrônicos"
+    Entrar no menu "Eletrônicos"
+    Verificar se aparece a frase "Eletrônicos e Tecnologia"
 #     Verificar se o título da página fica "Eletrônicos e Tecnologia | Amazon.com.br"
-#     Verificar se aparece a frase "Eletrônicos e Tecnologia"
+
 #     Verificar se aparece a categoria "Computadores e Informática"
 
 
