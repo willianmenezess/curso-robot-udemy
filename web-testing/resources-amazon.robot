@@ -26,3 +26,6 @@ Entrar no menu "Eletrônicos"
 
 Verificar se aparece a frase "Eletrônicos e Tecnologia"
     Wait Until Page Contains Element    ${H1_ELETRONICOS}
+
+Verificar se o título da página fica "${TITLE_ELETRONICOS}"
+    Title Should Be   ${TITLE_ELETRONICOS}
