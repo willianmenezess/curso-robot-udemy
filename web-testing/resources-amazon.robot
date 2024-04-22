@@ -3,6 +3,7 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
+${BROWSER}    Chrome
 ${URL}    https://www.amazon.com.br/
 ${MENU_VENDAS}    xpath=//a[@href='/gp/browse.html?node=17877554011&ld=ASBRSOA_retail_sell_header_t1&ref_=nav_cs_sell'][contains(.,'Venda na Amazon')]
 ${MENU_ELETRONICOS}    xpath=//a[@href='/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics'][contains(.,'Eletrônicos')]
@@ -12,7 +13,7 @@ ${BOTAO_BUSCA}    xpath=//input[@value='Ir']
 
 *** Keywords ***
 Abrir o navegador
-    Open Browser    browser=chrome
+    Open Browser    browser=${BROWSER}
     Maximize Browser Window
 
 Fechar o navegador

@@ -26,3 +26,4 @@ Caso de Teste 02 - Pesquisa de um Produto
     Clicar no botão de busca
     Verificar se o resultado da pesquisa está listando o produto "Xbox Series S"
 
+# robot -d ./results tests-amazon.robot  => resultados e logs gerados na pasta results
