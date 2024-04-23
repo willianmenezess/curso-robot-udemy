@@ -44,3 +44,29 @@ Clicar no botão de busca
 
 Verificar se o resultado da pesquisa está listando o produto "${TEXTO_BUSCA}"
     Wait Until Page Contains    resultados para "${TEXTO_BUSCA}"
+
+# ======= GHERKIN STEPS ========== #
+Dado que estou na home da pagina da Amazon.com.br
+    Acessar a homepage do site amazon.com.br
+
+Quando acessar o menu "Eletrônicos"
+    Entrar no menu "Eletrônicos"
+
+Então o título da página deve ser "Eletrônicos e Tecnologia | Amazon.com.br"
+    Verificar se o título da página fica "Eletrônicos e Tecnologia | Amazon.com.br"
+
+E o texto "Eletrônicos e Tecnologia" deve estar presente na página
+    Verificar se aparece a frase "Eletrônicos e Tecnologia"
+
+E a categoria "Computadores e Informática" deve estar presente na página
+    Verificar se aparece a categoria "Computadores e Informática"
+
+Quando pesquisar pelo produto "Xbox Series S"
+    Digitar o nome de produto "Xbox Series S" no campo de busca
+    Clicar no botão de busca
+
+Então o título da página deve ser "Amazon.com.br : Xbox Series S"
+    Verificar se o título da página fica "Amazon.com.br : Xbox Series S"
+
+E os resultados da busca "Xbox Series S" devem ser mostrados na página
+    Verificar se o resultado da pesquisa está listando o produto "Xbox Series S"
