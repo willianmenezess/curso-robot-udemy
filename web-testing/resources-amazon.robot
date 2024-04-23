@@ -45,6 +45,23 @@ Clicar no botão de busca
 Verificar se o resultado da pesquisa está listando o produto "${TEXTO_BUSCA}"
     Wait Until Page Contains    resultados para "${TEXTO_BUSCA}"
 
+Verificar se no resultado da pesquisa aparece o produto "${PRODUTO}"
+    Element Should Be Visible    //span[@class='a-size-base-plus a-color-base a-text-normal'][contains(.,'${PRODUTO}')]
+
+Adicionar o produto "Console Xbox Series S" no carrinho
+    Click Element    id=a-autoid-1-announce
+
+Verificar se o produto "${PRODUTO}" foi adicionado com sucesso
+    Element Should Be Visible    (//img[contains(@alt,'${PRODUTO}')])[1]
+
+Remover o produto "${PRODUTO}" do carrinho
+    Click Element    class=a-button-text
+    Wait Until Page Contains    "Carrinho de compras"
+    Click Element    xpath=//input[contains(@aria-label,'Excluir ${PRODUTO}')]    
+
+Verificar se o produto "${PRODUTO}" foi removido com sucesso
+    Wait Until Page Does Not Contain    "${PRODUTO}"
+
 # ======= GHERKIN STEPS ========== #
 Dado que estou na home da pagina da Amazon.com.br
     Acessar a homepage do site amazon.com.br
