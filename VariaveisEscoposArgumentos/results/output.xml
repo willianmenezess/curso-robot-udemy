@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.10.12 on linux)" generated="2024-04-24T17:29:02.103338" rpa="false" schemaversion="5">
+<suite id="s1" name="Ex-2-Dicionario" source="/home/pc/Documentos/Robot-Framework/curso-robot-udemy/VariaveisEscoposArgumentos/ex-2-dicionario.robot">
+<test id="s1-t1" name="Imprimir os meses do ano" line="6">
+<kw name="Gera Logs dos meses do ano e seus respectivos dias">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em JANEIRO há ${DIAS_POR_MES.janeiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.138034" elapsed="0.000781"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em FEVEREIRO há ${DIAS_POR_MES.fevereiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.139125" elapsed="0.000634"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em MARÇO há ${DIAS_POR_MES.março} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.140060" elapsed="0.000729"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em ABRIL há ${DIAS_POR_MES.abril} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.141103" elapsed="0.001236"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em MAIO há ${DIAS_POR_MES.maio} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.142668" elapsed="0.000901"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em JUNHO há ${DIAS_POR_MES.junho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.143836" elapsed="0.000875"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em JULHO há ${DIAS_POR_MES.julho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.144973" elapsed="0.000766"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em AGOSTO há ${DIAS_POR_MES.agosto} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.146008" elapsed="0.000715"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em SETEMBRO há ${DIAS_POR_MES.setembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.147024" elapsed="0.000989"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em OUTUBRO há ${DIAS_POR_MES.outubro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.148283" elapsed="0.000706"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em NOVEMBRO há ${DIAS_POR_MES.novembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.149303" elapsed="0.000846"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Em DEZEMBRO há ${DIAS_POR_MES.dezembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-04-24T17:29:02.150525" elapsed="0.000945"/>
+</kw>
+<status status="PASS" start="2024-04-24T17:29:02.137366" elapsed="0.014335"/>
+</kw>
+<status status="PASS" start="2024-04-24T17:29:02.135639" elapsed="0.016366"/>
+</test>
+<status status="PASS" start="2024-04-24T17:29:02.104683" elapsed="0.048325"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Ex-2-Dicionario">Ex-2-Dicionario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
