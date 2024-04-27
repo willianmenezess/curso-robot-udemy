@@ -10,6 +10,10 @@ Criar um usuário novo
     Set Test Variable     ${EMAIL_TESTE}  ${palavra_aleatoria}@emailteste.com
     Log  ${EMAIL_TESTE}
 
+Criar Sessão na ServeRest  # Cria uma sessão na API ServeRest, base para as demais requisições
+    ${headers}  Create Dictionary  accept=application/json  Content-Type=application/json
+    Create Session    alias=ServeRest    url=https://serverest.dev   headers=${headers}
+
 Cadastrar o usuário criado na ServeRest
     [Arguments]  ${email}  ${status_code_desejado}
     ${body}  Create Dictionary
@@ -35,9 +39,6 @@ Cadastrar o usuário criado na ServeRest
 
     Set Test Variable    ${RESPOSTA}    ${resposta.json()}
 
-Criar Sessão na ServeRest  # Cria uma sessão na API ServeRest, base para as demais requisições
-    ${headers}  Create Dictionary  accept=application/json  Content-Type=application/json
-    Create Session    alias=ServeRest    url=https://serverest.dev   headers=${headers}
 
 Conferir se o usuário foi cadastrado corretamente
     Log  ${RESPOSTA}
