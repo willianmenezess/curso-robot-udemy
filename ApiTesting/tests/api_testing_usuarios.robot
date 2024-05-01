@@ -24,4 +24,4 @@ Cenário 04: Logar com o novo usuário criado
     Criar um usuário novo
     Cadastrar o usuário criado na ServeRest  email=${EMAIL_TESTE}  status_code_desejado=201
     Realizar Login com o usuário criado  email=${EMAIL_TESTE}  status_code_desejado=200
-    # Conferir se o Login ocorreu com sucesso
+    Conferir se o Login ocorreu com sucesso
