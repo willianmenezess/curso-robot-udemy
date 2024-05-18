@@ -46,7 +46,7 @@ Imprime tamanhos para o produto
     END
 
 ### Usando várias variáveis
-Cria dicionário de traduções
+Cria uma lista de listas
     FOR    ${index}    ${english}    ${finnish}    ${portugues}   IN
     ...     1           cat           kissa         gato
     ...     2           dog           koira         cachorro
