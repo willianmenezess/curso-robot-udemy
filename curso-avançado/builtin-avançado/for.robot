@@ -1,13 +1,13 @@
 *** Test Cases ***
 Teste do novo formato do FOR
-    Velho formato do FOR de listas
+    # Velho formato do FOR de listas
     Novo formato do FOR de listas
 
 Teste de FOR aninhado
     Cria cadastro de produtos (FOR aninhado)
 
 Teste FOR usando várias váriaveis
-    Cria dicionário de traduções
+    Cria uma lista de listas
 
 Teste FOR com numeração da lista
     For com numeração
